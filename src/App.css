@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -43,6 +45,7 @@
   font-weight: 1;
   line-height: 24px;
   color: #d31b0d;
+  text-decoration: none;
 }
 #fender1 {
   font-family: "Brush Script MT", cursive;
@@ -82,4 +85,10 @@
   line-height: 1.25;
   color: black;
   margin: 0 0 36px;
+}
+#guitarDiv {
+  display: flex;
+  display: inline-flex;
+  flex-wrap: wrap;
+  border: none;
 }

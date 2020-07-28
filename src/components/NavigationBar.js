@@ -18,16 +18,33 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand id="fender">Fender</Navbar.Brand>
+      <Navbar.Brand id="fender">
+        <Nav.Item>
+          <Nav.Link>
+            <Link id="fender" to="/">
+              Fender
+            </Link>
+          </Nav.Link>
+        </Nav.Item>
+      </Navbar.Brand>
+      <Nav.Item>
+        <Nav.Link>
+          <Link>Guitars</Link>
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link>
+          <Link>Basses</Link>
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link>
+          <Link>Amps</Link>
+        </Nav.Link>
+      </Nav.Item>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Item>
-            <Nav.Link>
-              <Link to="/">Home</Link>
-            </Nav.Link>
-          </Nav.Item>
-
           <Nav.Item>
             <Nav.Link>
               <Link to="/contact">Contact</Link>

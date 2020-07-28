@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+#fender {
+  font-family: "Brush Script MT", cursive;
+  font-size: 52px;
+  font-variant: normal;
+  font-weight: 1;
+  line-height: 24px;
+  color: #d31b0d;
+}
+#fender1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 60px;
+  font-variant: normal;
+  font-weight: 1;
+  line-height: 24px;
+  color: #d31b0d;
+}
+#header {
+  font-family: FuturaPT-Heavy, -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
+    sans-serif;
+}

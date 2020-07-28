@@ -1,10 +1,11 @@
 import React from "react";
-import { ReactCarousel } from "./components/ReactCarousel";
 import "./App.css";
 import { StratCard } from "./components/StratCard";
 import { TeleCard } from "./components/TeleCard";
 import { JazzCard } from "./components/JazzCard";
-import { Button } from "react-bootstrap";
+import { JaguarCard } from "./components/JaguarCard";
+import { MustangCard } from "./components/MustangCard";
+import { LeadCard } from "./components/LeadCard";
 
 export const Home = () => (
   <div id="paragraph">
@@ -18,6 +19,9 @@ export const Home = () => (
       <StratCard></StratCard>
       <TeleCard></TeleCard>
       <JazzCard></JazzCard>
+      <JaguarCard></JaguarCard>
+      <MustangCard></MustangCard>
+      <LeadCard></LeadCard>
     </div>
   </div>
 );

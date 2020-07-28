@@ -1,13 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 import { Card, Button } from "react-bootstrap";
-import jazz from "../assets/rsz_jazzmaster1.jpg";
+import jaguar from "../assets/rsz_jaguar.jpg";
 
-export const JazzCard = () => (
+export const JaguarCard = () => (
   <div>
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" id="guitarcard" src={jazz} />
+      <Card.Img variant="top" id="guitarcard" src={jaguar} />
       <Card.Body>
-        <Card.Title>Fender Jazzmaster</Card.Title>
+        <Card.Title>Fender Jaguar</Card.Title>
         <Card.Text>Sleek, elegant style. The primary offset choice</Card.Text>
         <Button variant="primary">Shop all</Button>
       </Card.Body>

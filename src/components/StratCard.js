@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Card, Button } from "react-bootstrap";
 import strat from "../assets/rsz_stratocaster1.jpg";
 

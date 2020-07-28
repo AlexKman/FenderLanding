@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Card, Button } from "react-bootstrap";
 import jaguar from "../assets/rsz_jaguar.jpg";
 

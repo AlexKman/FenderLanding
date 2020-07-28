@@ -6,6 +6,7 @@ export const JazzCard = () => (
     <Card style={{ width: "18rem" }}>
       <Card.Img
         variant="top"
+        id="guitarcard"
         src={
           "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0118050712_gtr_frt_001_rr.jpg"
         }

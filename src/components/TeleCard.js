@@ -6,6 +6,7 @@ export const TeleCard = () => (
     <Card style={{ width: "18rem" }}>
       <Card.Img
         variant="top"
+        id="guitarcard"
         src={
           "https://www.fmicassets.com/Damroot/GuitarVertDesktopJpg/10001/0110133850_gtr_frt_001_rl.jpg"
         }

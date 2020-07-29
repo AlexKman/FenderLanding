@@ -29,7 +29,7 @@ export const NavigationBar = () => (
       </Navbar.Brand>
       <Nav.Item>
         <Nav.Link>
-          <Link>Guitars</Link>
+          <Link to="/guitars">Guitars</Link>
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>

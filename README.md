@@ -14,4 +14,10 @@ You will also see any lint errors in the console.
 
 The hosted version of this repository can be found here - **https://hungry-mahavira-3d00f2.netlify.app/**
 
-The available url's are / /guitars and /contact
+The available url's are
+
+/
+
+/guitars
+
+/contact

@@ -45,16 +45,17 @@ export const Home = () => (
         </div>
         <div className="sideImageHolder">
           <div className="sideImageCell">
-            From the first electric basses to the modern player designs, Fender
-            is laying the foundation for musical innovation and evolution
-          </div>
-          <div className="sideImageCell">
             <img
               src={JimiHendrix}
               alt="TeleCaster"
               className="sideImageImage"
             />
           </div>
+          <div className="sideImageCell">
+            From the first electric basses to the modern player designs, Fender
+            is laying the foundation for musical innovation and evolution
+          </div>
+          
         </div>
         <div className="sideImageHolder">
           <div className="sideImageCell">

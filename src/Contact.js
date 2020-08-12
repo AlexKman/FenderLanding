@@ -3,17 +3,20 @@ import "./App.css";
 export const Contact = () => (
   <div>
     <section className="container">
-      <p id="Contactheader">
-        Have a question? From product support to assistance with online
-        ordering, our dedicated Consumer Relations team is here to help you
-        every step of the way.
+      <div className="contactleft">
+        <p id="Contactheader">
+        Have a question? 
       </p>
-
+      <h6>From product support to assistance with online
+        ordering, our dedicated Consumer Relations team is here to help you
+        every step of the way.</h6>
+        <br></br>
       <div>
         <p style={{ fontWeight: "bolder" }}>Customer Service:</p>
         <p>0333 2000 8765</p>
         <br></br>
         <p style={{ fontWeight: "bolder" }}>By email:</p>
+      </div>
       </div>
       <div className="App">
         <form id="contact-form">
